@@ -1,0 +1,111 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+nav {
+
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+img {
+    margin: 20px auto 20px auto;
+}
+
+
+header nav ul li a {
+    font-family: 'roboto';
+    font-size: 18px;
+    margin: 61px 24px 15px 24px;
+
+    text-decoration: none;
+    color: #bab9b9;
+    font-weight: 'regular';
+
+}
+
+header nav ul li a:hover {
+    border-bottom: 2px #4581b7 solid;
+    padding-bottom: 10px;
+    color: #4581b7;
+}
+
+.img1 {
+    margin: 64px auto 30px auto;
+    display: block;
+}
+main{
+    justify-content: center;
+    display: flex;
+}
+
+.cont{
+display: flex;
+justify-content: space-between;
+width: 1110px;
+}
+
+.left {
+    width: 729px;
+    height: 500px;
+    background: #f0f0f0;
+    font-size: 20px;
+    color: #808080;
+}
+.right{
+    width: 350px;
+    height: 500px;
+    background: #f0f0f0;
+    font-size: 20px;
+    color: #808080;
+    
+}
+
+h2{
+    font-size: 24px;
+    font-family: 'roboto';
+    color: #4581b7;
+    margin: 37px 100px auto 40px;
+}
+p{
+    margin: 37px 100px auto 40px;
+}
+.pleft{
+    margin-left: 40px;
+    margin-right: 43px;
+}
+footer{
+    width: 1110px;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+    background:#f0f0f0;
+    margin-top: 30px;
+}
+.right1{
+    
+  
+    
+
+}
+footer .right1 span{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'roboto';
+    color: #808080;
+}
+footer .right1 p{
+    font-size: 16px;
+    font-family: 'Myriad Pro';
+    color: #808080;
+    font-weight: Regular;
+}
